@@ -1,7 +1,7 @@
 # Create a comprehensive Colab-ready Python script with active (not commented-out) code snippets
 # separated by detailed comments and covering multiple dataset-loading methods and algorithms.
 
-content = """# ============================================================
+# ============================================================
 # COMPLETE GOOGLE COLAB ML WORKFLOW (FULLY EXECUTABLE)
 # Covers:
 # - Loading datasets (inbuilt + external)
@@ -226,7 +226,7 @@ print("\\nPCA REDUCED SHAPE:", X_reduced.shape)
 # ============================================================
 # END OF FILE
 # ============================================================
-"""
+
 
 file_path = "/mnt/data/colab_full_ml_workflow.py"
 with open(file_path, "w") as f:
